@@ -1,0 +1,5 @@
+x=intToBits(7)[1:4]; print(x)
+x=rev(x); print(x)
+x=strsplit(as.character(x),""); print(x)
+x=unlist(x); print(x)
+x=as.numeric(x[(1:4)*2]); print(x)
